@@ -15,7 +15,7 @@ API Integration: Google Places API to fetch live data.
 bash
 Copy
 Edit
-git clone https://github.com/your-username/egg-and-omelet-finder.git
+git clone https://github.com/prasad-rc/Location-with-fitze-twist.git
 cd egg-and-omelet-finder
 2. Install Dependencies
 Make sure you have Node.js installed, then run:
