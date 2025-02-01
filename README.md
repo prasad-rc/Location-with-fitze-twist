@@ -24,6 +24,7 @@ bash
 Copy
 Edit
 npm install
+
 3. Set Up Google Places API
 Go to Google Cloud Console.
 Enable the Places API.
@@ -32,6 +33,7 @@ javascript
 Copy
 Edit
 const GOOGLE_API_KEY = "YOUR_GOOGLE_API_KEY";
+
 4. Start the Server
 bash
 Copy
