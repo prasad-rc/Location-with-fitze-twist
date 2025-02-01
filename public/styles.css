@@ -1,0 +1,134 @@
+/* Global Styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff9db; /* Eggshell white background */
+    color: #333;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background: #fff; /* White background for contrast */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px; /* Rounded corners for a soft look */
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 28px;
+    color: #f4a900; /* Egg yolk yellow */
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #f4a900; /* Egg yolk yellow */
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #f4a900; /* Egg yolk border */
+    border-radius: 50px; /* Rounded input */
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input:focus, select:focus {
+    outline: none;
+    border-color: #ffce53; /* Softer yellow focus */
+    box-shadow: 0 0 8px rgba(255, 206, 83, 0.5);
+  }
+  
+  /* Button */
+  .btn {
+    background-color: #f4a900; /* Egg yolk yellow */
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 50px; /* Rounded button */
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #ffce53;
+    transform: scale(1.05); /* Slight zoom on hover */
+  }
+  
+  /* Egg-Themed Background */
+  .egg-image {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/1046/1046750.png'); /* Fried egg image */
+    background-size: cover;
+    z-index: 1;
+    opacity: 0.8;
+  }
+  
+  body::before {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 150px;
+    height: 150px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/206/206854.png'); /* Cracked egg image */
+    background-size: contain;
+    opacity: 0.2;
+    z-index: 0;
+  }
+  
+  body::after {
+    content: "";
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    width: 200px;
+    height: 200px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/2832/2832518.png'); /* Fried egg image */
+    background-size: contain;
+    opacity: 0.2;
+    z-index: 0;
+  }
+  .result-card {
+    background: #fff;
+    border: 2px solid #ffce53;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+    
